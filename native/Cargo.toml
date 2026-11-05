@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["grisp_rust_native", "grisp_rust_testsuite_native"]

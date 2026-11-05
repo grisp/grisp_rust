@@ -1,0 +1,18 @@
+{application, grisp_rust, [
+    {description, "A GRiSP application showcasing Rust NIFs"},
+    {vsn, "0.1.0"},
+    {registered, [grisp_rust_sup, grisp_rust_testsuite_server]},
+    {mod, {grisp_rust, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        grisp_rust_test_dependency,
+        grisp
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.

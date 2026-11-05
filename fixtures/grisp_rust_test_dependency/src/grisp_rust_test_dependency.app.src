@@ -1,0 +1,6 @@
+{application, grisp_rust_test_dependency, [
+    {description, "Local dependency for Rust NIF integration validation"},
+    {vsn, "0.1.0"},
+    {applications, [kernel, stdlib]},
+    {modules, []}
+]}.
